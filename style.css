@@ -18,6 +18,29 @@ img{
 }
 
 
+.about__content{
+    padding: 1rem;
+}
+.about__content h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.about__content h3{
+    font-size: .8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: coral;
+    margin: .5rem 0 1rem 0;
+}
+.about__content p{
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+
+
+
 .box{
     padding: 1.5rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -42,5 +65,11 @@ img{
         display: grid;
         grid-template-columns: repeat(3,1fr);        
     }
-    
+}
+
+@media(min-width:768px){
+    .about__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
