@@ -60,7 +60,7 @@ img{
 }
 
 
-@media(min-width:920px){
+@media(min-width:980px){
     .box__wrapper {
         display: grid;
         grid-template-columns: repeat(3,1fr);        
